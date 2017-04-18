@@ -42,13 +42,11 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   flex-grow:1;
 }
 
-
 .box3 {
-  flex-grow:5;
+  flex-basis:100px;
+  /*flex-grow: 3;*/
 }
 
-.box4 {
-  flex-basis:100px;  
+.box5 {
+  flex-grow:3;
 }
-
-

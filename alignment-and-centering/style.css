@@ -33,14 +33,49 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   display:flex;
   border:10px solid mistyrose;
   height:100vh;
-  align-items:flex-start;
+  /*flex-wrap: wrap;*/
+  align-items: flex-start;
 }
+
 
 .box {
   width:33.333%;
 }
 
+.box3 {
+  padding-bottom: 180px;
+  align-self: center;
+}
+
 .box2 {
+  padding-bottom: 290px;
+  align-self: center;
+}
+
+.box4 {
+  align-self: baseline;
+}
+
+.box5 {
+  padding-bottom: 220px;
+  align-self: flex-start ;
+}
+
+.box7 {
+  padding-bottom: 120px;
+}
+
+.box10 {
+  align-self: center;
+}
+
+.box8 {
+  padding-top: 130px;
+  align-self: baseline;
+}
+
+
+/*.box2 {
   padding-bottom: 200px;
 }
 
@@ -51,4 +86,4 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .box9 {
   padding-bottom: 50px;
   align-self:stretch;
-}
+}*/
